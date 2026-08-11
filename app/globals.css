@@ -1,0 +1,45 @@
+:root {
+  color-scheme: dark;
+  --page-black: #0e0e0e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--page-black);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.poster-site {
+  width: 100%;
+  background: var(--page-black);
+}
+
+.poster-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: var(--page-black);
+}
+
+.poster-image {
+  display: block;
+  width: min(100%, 1024px);
+  height: auto;
+  margin: 0;
+}
+
+@media (min-width: 1025px) {
+  .poster-site {
+    background:
+      linear-gradient(90deg, #080808 0, var(--page-black) calc(50% - 512px), var(--page-black) calc(50% + 512px), #080808 100%);
+  }
+}
