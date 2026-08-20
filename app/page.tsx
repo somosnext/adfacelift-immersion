@@ -56,10 +56,7 @@ export default function Home() {
               <ol>
                 {topics.map((topic) => <li key={topic}>{topic}</li>)}
               </ol>
-              <p className="sponsor">Palestra com patrocinador</p>
             </div>
-
-            <p className="transfer">Após a apresentação — Deslocamento para o Hospital Teknon</p>
 
             <h3 className="pill practice-title">HOSPITAL TEKNON — ETAPA PRÁTICA</h3>
             <div className="rows practical-rows">
@@ -67,8 +64,6 @@ export default function Home() {
                 <time>10h</time>
                 <p>Demonstração da retirada de gordura, processamento e lipoenxertia da face</p>
               </div>
-              <div className="schedule-row"><time>12h</time><p>Pausa para almoço</p></div>
-              <div className="schedule-row long-row"><time>Após o almoço</time><p>Hands-on completo | 2 turmas</p></div>
             </div>
           </section>
 
@@ -91,7 +86,6 @@ export default function Home() {
             <div className="section-heading"><span /><h2 id="structure-title">ESTRUTURA</h2><span /></div>
             <ul>
               <li>2 dias de imersão</li>
-              <li>2 turmas de hands-on no primeiro dia</li>
               <li>4 turmas de hands-on no segundo dia: 2 pela manhã + 2 à tarde</li>
               <li>Hands-on com máximo de 6 alunos</li>
               <li>Observacional: até 50 participantes</li>

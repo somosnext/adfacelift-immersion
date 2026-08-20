@@ -54,9 +54,6 @@ body { overflow-x: hidden; color: var(--ivory); }
 .topics-card ol { display: grid; grid-template-columns: 1fr 1fr; gap: .42rem 2rem; margin: 0; padding-left: 1.35rem; }
 .topics-card li { padding-left: .2rem; color: var(--ivory); font-size: clamp(.98rem, 2.3vw, 1.3rem); line-height: 1.2; }
 .topics-card li::marker { color: var(--bronze); }
-.sponsor { margin: 1.1rem 0 0; padding-top: .8rem; border-top: 1px solid var(--line); color: var(--bronze); font-size: clamp(1.1rem, 2.6vw, 1.4rem); text-align: center; }
-
-.transfer { margin: 0 0 1.8rem; padding: .8rem 1rem; border-block: 1px solid var(--line); color: var(--ivory); font-size: clamp(1.05rem, 2.5vw, 1.4rem); text-align: center; }
 .practice-title { margin-bottom: 1.1rem; font-size: clamp(.95rem, 2.5vw, 1.45rem); }
 .long-row { grid-template-columns: 8rem 1fr; }
 .day-two { padding-top: 3rem; }
