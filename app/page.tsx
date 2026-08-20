@@ -52,7 +52,7 @@ export default function Home() {
             </div>
 
             <div className="topics-card">
-              <h3>TÓPICOS ABORDADOS EM AULA</h3>
+              <h3>TÓPICOS ABORDADOS</h3>
               <ol>
                 {topics.map((topic) => <li key={topic}>{topic}</li>)}
               </ol>
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="rows practical-rows">
               <div className="schedule-row long-row">
                 <time>10h</time>
-                <p>Demonstração da retirada de gordura, processamento e lipoenxertia da face</p>
+                <p>Demonstração prática</p>
               </div>
             </div>
           </section>
@@ -77,9 +77,7 @@ export default function Home() {
           </section>
 
           <aside className="coffee-note">
-            <strong>A partir das 15h — Coffee Break disponível</strong>
-            <span>Serviço contínuo, sem interrupção das atividades práticas.</span>
-            <span>Os participantes poderão se servir livremente e retornar ao acompanhamento.</span>
+            <strong>A partir das 15h — Coffee Break livre</strong>
           </aside>
 
           <section className="structure" aria-labelledby="structure-title">
